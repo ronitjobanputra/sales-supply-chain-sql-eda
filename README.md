@@ -1,22 +1,35 @@
 # Sales & Supply Chain SQL Exploratory Data Analysis
 
+# Sales & Supply Chain SQL Exploratory Data Analysis
+
+> **End-to-end SQL analysis of sales performance, customer behavior, delivery reliability, and supply-chain operations.**
+
 ## Project Overview
 
-This project uses SQL to explore sales, customer, product, order, shipment, and delivery data from a sales and supply chain dataset.
+This project analyzes a relational sales and supply-chain dataset using **MySQL** to turn transactional data into business and operational insights.
 
-The analysis was structured as an end-to-end exploratory data analysis (EDA), beginning with data inspection and cleaning and progressing into commercial and operational analysis.
+The analysis connects **orders, customers, products, order items, and shipments** to investigate both commercial performance and supply-chain execution.
 
-The main objective was to understand:
+### Key Areas Analyzed
 
-- Sales and revenue performance
-- Product performance
-- Customer value
-- Sales-channel performance
-- Order and delivery status
-- Delivery delays
-- Regional performance
-- Customer-type performance
-- Transportation costs and shipment sizes
+- 📊 Sales and revenue performance
+- 📦 Product and category performance
+- 👥 Customer value and purchasing behavior
+- 🛒 Sales-channel performance
+- 🚚 Shipment and delivery performance
+- ⚠️ Delivery delays and delay rates
+- 🌍 Regional performance
+- 🏢 Customer-type performance
+- 💰 Transportation costs and shipment size
+
+### SQL Techniques
+
+`JOIN` • `GROUP BY` • `CASE WHEN` • `CTEs` • `Subqueries` • `Window Functions` • `ROW_NUMBER()` • `COUNT()` • `SUM()` • `AVG()` • `Date Functions`
+
+### Project Deliverables
+
+📄 **[Visual Case Study Report](sales_supply_chain_eda_visual_case_study.pdf)**  
+💻 **[SQL Analysis](sales_supply_chain_eda.sql)**
 
 ---
 
